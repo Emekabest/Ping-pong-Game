@@ -50,15 +50,15 @@ int main() {
 		float speed = 300;
 		
 		Rectangle GetRect() {
-
+		
 		return Rectangle{ x, y - height / 2	, width, height };
 
 		}															
 
 		void Draw() {
-
+		
 			DrawRectangle((int)x, (int)y - height / 2 , width, height, WHITE);
-
+		
 		}
 
 	};
@@ -190,11 +190,11 @@ int main() {
 
 	if (ball.x > screenWidth) {
 
-		winnerText = "Left Player Wins";
+		winnerText = "Left Player Wins The Game";
 	}
 
 	if (ball.x < 0){
-		winnerText = "Right Player Wins";
+		winnerText = "Right Player Wins The Game";
 
 	}
 
