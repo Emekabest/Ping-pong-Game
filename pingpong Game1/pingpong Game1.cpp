@@ -7,7 +7,7 @@ using namespace std;
 int main() {
 
 	
-	const char* gameName = "Pong Game";
+	const char* gameName = "main Pong Game";
 
 	int screenHeight = 600;
 	int screenWidth = 1400;
@@ -16,7 +16,7 @@ int main() {
 	SetWindowState(FLAG_VSYNC_HINT);
 
 
-	/*Setting and drawing the ball .............*/
+	/*Setting and drawing the main ball .............*/
 
 	struct Ball
 	{
